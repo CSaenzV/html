@@ -31,12 +31,12 @@ _Feel free to use the powers of Google here, but please provide link(s) to your 
 
 a) You want to create a webpage with the photos from your latest vacation
 
-<img src="">
+img src=""
 
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
 
-<ol></ol>
-<a href ="">
+ol
+a href =""
 
 c) You want to sell designer hats. You need to receive orders from the user.
 
@@ -46,7 +46,7 @@ c) You want to sell designer hats. You need to receive orders from the user.
 
 ## Q5 - What is the most generic tag you can use?
 
-<div></div>
+`div`
 
 ## Q6 - What do the following achronyms stand for?
 
@@ -74,7 +74,7 @@ The `th` element represents a header cell in a table. Header cells are intended 
 
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
 
-<h1>
+`h1`
 
 ## Q10 - In which situation can you use self closing tags?
 
@@ -88,7 +88,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete
 
 ## Q12 - Which attributes are always present in an img element?
 
-The <img> tag has two required attributes:
+The `img` tag has two required attributes:
 
 src - Specifies the path to the image
 alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed
