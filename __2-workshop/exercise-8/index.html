@@ -1,1 +1,51 @@
 <!-- ...crickets... -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Registration form</h1>
+    <form>
+      <label>
+        Username
+        <input name="username" type="text" required />
+      </label>
+      <label>
+        Password
+        <input name="password" type="password" required />
+      </label>
+      <label>
+        Email
+        <input name="email" type="email" required />
+      </label>
+
+      <legend><h2>Which taxi do you require?</h2></legend>
+      <label><input type="radio" name="taxi" required />Car</label>
+      <label><input type="radio" name="taxi" required />Van</label>
+      <label><input type="radio" name="taxi" required />Tuk Tuk</label>
+
+      <legend><h2>Choose your extras</h2></legend>
+      <label><input type="checkbox" name="bs" />Baby seat</label>
+      <label><input type="checkbox" name="wa" />Wheelchair acces</label>
+      <label><input type="checkbox" name="pw" />Privacy windows</label>
+
+      <legend><h2>Where would you like us to pick you up?</h2></legend>
+      <label for="address">Pickup Location</label>
+      <select name="adress" id="adress">
+        <option value="one">select One</option>
+      </select>
+
+      <h2>Additional Instruction</h2>
+      <label for="messenger">Special</label>
+      <textarea
+        name="messenger"
+        placeholder="provide special instruction here"
+      ></textarea>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
