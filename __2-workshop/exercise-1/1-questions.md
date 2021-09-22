@@ -42,6 +42,7 @@ c) You want to sell designer hats. You need to receive orders from the user.
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
 
+Logically no, because a user would not be able to click on the outer button
 
 
 ## Q5 - What is the most generic tag you can use?
